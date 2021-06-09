@@ -68,12 +68,7 @@
 
 <table style="width:100%">
   <tr>
-    <th></th>
-    <th>Nearest Neighbour Results</th>
-    <th></th>
-  </tr>
-  <tr>
-    ---------------------------------------------------------------------------------------------------------------------------
+    <th colspan="7">Nearest Neighbour Results</th>
   </tr>
   <tr>
     <td>Dataset</td>
