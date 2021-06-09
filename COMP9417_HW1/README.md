@@ -68,17 +68,21 @@
 
 <table style="width:100%">
   <tr>
+    <th></th>
     <th>Nearest Neighbour Results</th>
+    <th></th>
   </tr>
   <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
+    ---------------------------------------------------------------------------------------------------------------------------
   </tr>
   <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
+    <td>Dataset</td>
+    <td>Baseline</td>
+    <td>10%</td>
+    <td>25%</td>
+    <td>50%</td>
+    <td>75%</td>
+    <td>100%</td>
   </tr>
 </table>
                                                  Nearest Neighbour Results                                                 
