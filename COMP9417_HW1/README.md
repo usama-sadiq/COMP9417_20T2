@@ -68,9 +68,7 @@
 
 <table style="width:100%">
   <tr>
-    <th></th>
     <th>Nearest Neighbour Results</th>
-    <th></th>
   </tr>
   <tr>
     <td>Jill</td>
