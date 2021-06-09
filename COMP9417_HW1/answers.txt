@@ -57,8 +57,8 @@
 ********************************************************************************
 *** Algorithm            After 10% training	After 100% training
 ********************************************************************************
-*** Nearest Neighbour      23.59                    47.77      
-*** Decision Tree          40.39                    69.76      
+*** Nearest Neighbour      23.60                    47.77      
+*** Decision Tree          39.71                    69.84      
 ********************************************************************************
 
 --- The rest of this question has two multiple-choice parts, each worth 1 mark.
