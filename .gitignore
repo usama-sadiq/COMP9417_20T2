@@ -2,7 +2,7 @@
 bin/
 conda-meta/
 DLLs/
-inculde/
+include/
 Lib/
 Library/
 libs/
@@ -26,4 +26,12 @@ COMP9417_HW1/datasets/
 datasets.zip
 COMP9417_HW1/sip/
 qt.conf
-COMP9417_HW1/.nonadmin
+.nonadmin
+LICENSE_PYTHON.txt
+python.exe
+python.pdb
+python39.pdb
+pythonw.exe
+pythonw.pdb
+venvlauncher.exe
+venvwlauncher.exe
