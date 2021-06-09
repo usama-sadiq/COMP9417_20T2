@@ -298,4 +298,4 @@
 
 - Each line represents the percentage accuracy of classification on training and test set for different amounts of feature selection.
 - The first line represents the "default" i.e. using all the features.
-- The remaining 4 lines show the effect of learning and predicting on text data where only the top $K$ features are being used.
+- The remaining 4 lines show the effect of learning and predicting on text data where only the top K features are being used.
