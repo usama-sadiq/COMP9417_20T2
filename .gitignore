@@ -22,6 +22,7 @@ COMP9417_HW1/python37.pdb
 COMP9417_HW1/pythonw.exe
 COMP9417_HW1/pythonw.pdb
 COMP9417_HW1/.ipynb_checkpoints
+COMP9417_HW2/.ipynb_checkpoints
 COMP9417_HW1/datasets/
 datasets.zip
 COMP9417_HW1/sip/
@@ -35,3 +36,9 @@ pythonw.exe
 pythonw.pdb
 venvlauncher.exe
 venvwlauncher.exe
+balance-scale.arff
+glass.arff
+heart-h.arff
+hw2.zip
+primary-tumor.arff
+COMP9417_HW2/Lab6_NeuralLearning_Qs.ipynb

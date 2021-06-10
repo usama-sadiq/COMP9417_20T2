@@ -49,7 +49,7 @@
 
 #### PART A
 
-- Run the code section and save the results to a text file "q1.out"
+- Run the code section and save the results to a text file "q1.out".
 
 #### PART B
 
@@ -57,7 +57,7 @@
 
 ### QUESTION 2
 
-- Run the code section and save the results to a text file "q2.out"
+- Run the code section and save the results to a text file "q2.out".
 
 
 ## RESULTS
