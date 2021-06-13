@@ -35,14 +35,16 @@ following models for the given data:
 # RESULTS
 
 <table style="width:100%">
-    <tr>
-        <th>Model</th>
-        <th>Parameters</th>
-        <th>Kaggle Score</th>
-    </tr>
+  
+  <tr>
+    <th>Model</th>
+    <th>Parameters</th>
+    <th>Kaggle Score</th>
+  </tr>
 
-    <tr>
-        <td>Decision Tree</td>
-        <td>random_state=0, <br> criterion='entropy', <br> max_depth=30, <br> splitter='best', <br> min_samples_split=30</td>
-    </tr>
+  <tr>
+    <td>Decision Tree</td>
+    <td>random_state = 0, criterion = 'entropy', max_depth = 30, splitter = 'best', min_samples_split = 30</td>
+  </tr>
+
 </table>
