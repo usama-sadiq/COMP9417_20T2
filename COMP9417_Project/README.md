@@ -81,3 +81,10 @@ following models for the given data:
 </table>
 
 <p><b>* Light Gradient Boost Machine was chosen as the final model with the final prediction score of 0.92</b></p>
+
+# CONTRIBUTORS
+
+- Usama Sadiq. (Github Profile: https://github.com/usama-sadiq)
+- Mohit Khanna. (Github Profile: https://github.com/mohitKhanna1411)
+- Uttkarsh Sharma. (Github Profile: https://github.com/khaamosh)
+- Sibo Zhang. (Github Profile: https://github.com/sibozhang400)
