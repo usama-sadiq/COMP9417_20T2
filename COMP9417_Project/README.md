@@ -79,3 +79,5 @@ following models for the given data:
   </tr>
 
 </table>
+
+<p style="font-size=11px"><b>Light Gradient Boost Machine was chosen as the final model with the final prediction acurracy of 0.92</b></p>
