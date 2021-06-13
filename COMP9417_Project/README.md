@@ -80,4 +80,4 @@ following models for the given data:
 
 </table>
 
-<p style="font-size=4px"><b>* Light Gradient Boost Machine was chosen as the final model with the final prediction score of 0.92</b></p>
+<p style="font-size:4px"><b>* Light Gradient Boost Machine was chosen as the final model with the final prediction score of 0.92</b></p>
