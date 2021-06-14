@@ -39,7 +39,7 @@ was provided via the collaboration of IEEE and Vesta Corporation.
 - DeviceInfo.
 - id_12 - id_38.
 
-<p><b>Note:</b> All data description are provided by the competition host (Vesta) at https://www.kaggle.com/c/ieee-fraud-detection/discussion/101203</p>
+<p><b>Note:</b> Credit to Vesta (Competition Host) for providing the above data description and details. Link: https://www.kaggle.com/c/ieee-fraud-detection/discussion/101203</p>
 
 # IMPLEMENTATION
 
@@ -59,12 +59,266 @@ following models for the given data:
 
 ## EDA
 
+<p>For exploratory data anaylsis please refer to Final_Report_COMP9417_Project.pdf and EDA.ipynb file in this repository</p>
+
+## FEATURE ENGINEERING
+
+###  SOLVING CLASS VARIABLE IMABALANCE USING SIMULATED MINORITY OVER-SAMPLING:
+
+
+
 ## MACHINE LEARNING MODELS
+
+### Decision Tree:
 
 <table style="width:100%">
 
+<tr>
+    <th>Model/Scenario</th>
+    <th>Parameters</th>
+    <th>Kaggle Score</th>
+</tr>
+
+<tr>
+  <td>Label encoding, Features\Columns with 50 percent or more null values removed, Balance of the class variable</td>
+  <td>random_state = 0, criterion = 'entropy', max_depth = 8, splitter = 'best', min_samples_split = 30</td>
+  <td>0.69</td>
+</tr>
+
+<tr>
+  <td>One hot encoding, Features\Columns with 90 percent or more null values removed, Balance of the class variable</td>
+  <td>random_state = 0, criterion = 'entropy', max_depth = 8, splitter = 'best', min_samples_split = 30</td>
+  <td>0.70</td>
+</tr>
+
+<tr>
+  <td>Label encoding, Features\Columns with 90 percent or more null values removed, Imbalance of the class vaiable</td>
+  <td>random_state = 0, criterion = 'entropy', max_depth = 8, splitter = 'best', min_samples_split = 30</td>
+  <td>0.72</td>
+</tr>
+
+<tr>
+  <td>One hot encoding, Features\Columns with 90 percent or more null values removed, Imbalance of the class variable</td>
+  <td>random_state = 0, criterion = 'entropy', max_depth = 8, splitter = 'best', min_samples_split = 30</td>
+  <td>FILL THIS PLEASE</td>
+</tr>
+
 </table>
 
+### Naive Bias: (check this from notebook)
+
+<table style = "width:100%">
+
+<tr>
+  <th>Model/Scenrio</th>
+  <th>Kaggle Score</th>
+</tr>
+
+<tr>
+  <td>Class variable is imbalance</td>
+  <td>0.50</td>
+</tr>
+
+<tr>
+  <td>Class variable is balance and no parameter tuning</td>
+  <td>0.63</td>
+</tr>
+
+#### Class variable is balance and grid search is utilized to fine tune the hyper parameters.
+
+##### Grid Search Parameters
+
+<table style = "width:100%">
+  
+  <tr>
+    <th>Parameter</th>
+    <th>Value(s)</th>
+  </tr>
+
+  <tr>
+    <td>alpha</td>
+    <td>[0.001,0.01,0.1,1]</td>
+  </tr>
+
+  <tr>
+    <td>Fit_prior</td>
+    <td>[True]</td>
+  </tr>
+
+</table>
+
+</table>
+
+<table style = "width:100%">
+
+  <tr>
+    <td>Grid Search and Feature Selection</td>
+    <td>0.75</td>
+  </tr>
+
+</table>
+
+### K Nearest Neighbour
+
+<table style = "width:100%">
+
+<tr>
+  <th>Hyperparameters</th>
+  <th>Kaggle Score</th>
+</tr>
+
+<tr>
+  <td>N_neigbours = 3, metric = "minkowski" with p = 2</td>
+  <td>0.50</td>
+</tr>
+
+</table>
+
+<table style = "width:100%">
+
+<tr>
+  <th>Hyperparameters</th>
+  <th>Kaggle Score</th>
+</tr>
+
+<tr>
+  <td>N_neigbours = 5, metric = "minkowski" with p = 2</td>
+  <td>0.50</td>
+</tr>
+
+<tr>
+  <td>N_neigbours = 7, metric = "minkowski" with p = 2</td>
+  <td>0.50</td>
+</tr>
+
+</table>
+
+#### SelectKBest (Sklearn)
+
+<table style = "width:100%">
+
+<tr>
+  <th>Hyperparameters</th>
+  <th>Value(s)</th>
+</tr>
+
+<tr>
+  <td>Score_func</td>
+  <td>f_classif</td>
+</tr>
+
+<tr>
+  <td>K</td>
+  <td>20</td>
+</tr>
+
+</table>
+
+<table style = "width:100%">
+
+<tr>
+  <th>Hyperparameters</th>
+  <th>Kaggle Score</th>
+</tr>
+
+<tr>
+  <td>N_neigbours = 5, metric = "minkowski" with p = 2</td>
+  <td>0.67</td>
+</tr>
+
+</table>
+
+### SUPPORT VECTOR MACHINE
+
+<p>We could not get a conclusive answer for the SVM.</p>
+
+### RANDOM FOREST
+
+<table style = "width:100%">
+
+<tr>
+  <th>Hyperparameters</th>
+  <th>Kaggle Score</th>
+</tr>
+
+<tr>
+  <td>'n_estimators' = 100</td>
+  <td>0.85</td>
+</tr>
+
+<tr>
+  <td>'n_estimators' = 500, 'random_state' = 10, 'max_depth' = 20</td>
+  <td>0.82</td>
+</tr>
+
+<tr>
+  <td>'n_estimators' = 1000, 'random_state' = 200, 'bootstrap' = False, 'max_depth' = 5</td>
+  <td>0.86</td>
+</tr>
+
+<tr>
+  <td><b>'n_estimators' = 1000, 'random_state' = 121, 'min_samples_split' = 2, 'bootstrap' = False, 'max_depth' = 5</b></td>
+  <td><b>0.88</b></td>
+</tr>
+
+</table>
+
+### LIGHT GRADIENT BOOST MACHINE
+
+<table style = "width:100%">
+
+<tr>
+  <th>Hyperparameters</th>
+  <th>Kaggle Score</th>
+</tr>
+
+<tr>
+  <td>'objective' = 'binary', 'n_estimators' = 300, 'learning_rate' = 0.1, 'subsample' = 0.8</td>
+  <td>0.84</td>
+</tr>
+
+<tr>
+  <td>'objective' = 'binary', 'n_estimators' = 200, 'learning_rate' = 0.1</td>
+  <td>0.83</td>
+</tr>
+
+<tr>
+  <td>'objective' = 'binary', 'n_estimators' = 500, 'learning_rate' = 0.1</td>
+  <td>0.87</td>
+</tr>
+
+<tr>
+  <td>'objective' = 'binary', 'n_estimators' = 500, 'learning_rate' = 0.1, 'num_leaves' = 50, 'max_depth' = 7, 'subsample' = 0.9, 'colsample_bytree = 0.9'</td>
+  <td>0.89</td>
+</tr>
+
+<tr>
+  <td>'objective' = 'binary', 'n_estimators' = 600, 'learning_rate' = 0.1, 'num_leaves' = 50, 'max_depth' = 7, 'subsample' = 0.9, 'colsample_bytree' = 0.9</td>
+  <td>0.90</td>
+</tr>
+
+<tr>
+  <td>'objective' = 'binary', 'n_estimators' = 700, 'learning_rate' = 0.1, 'num_leaves' = 50, 'max_depth' = 7, 'subsample' = 0.9, 'colsample_bytree' = 0.9, 'random_state' = 108</td>
+  <td>0.92</td>
+</tr>
+
+</table>
+
+### INTEGRATED STACKED MODEL
+
+<table style = "width:100%">
+
+  <tr>
+    <th>Hyperparameters</th>
+    <th>Kaggle Score</th>
+  </tr>
+
+  <tr>
+    <td>Decision Tree + K-Nearest Neighbour + Light Gradient Boost Machine + Random Forest + Bernouli Naive Bias</td>
+    <td>0.78</td>
+  </tr>
+
+</table>
 
 # RESULTS
 
