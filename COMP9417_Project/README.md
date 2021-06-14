@@ -11,7 +11,35 @@ which aims to predict whether a given financial transaction is ‘Fraudulent’ 
 - The dataset for the model was taken from the Kaggle competition: https://www.kaggle.com/c/ieee-fraud-detection and
 was provided via the collaboration of IEEE and Vesta Corporation.
 
-- Give a short description about the dataset.
+## TRANSACTION TABLE
+
+- TransactionDT: timedelta from a given reference datetime (not an actual timestamp).
+- TransactionAMT: transaction payment amount in USD.
+- (*) ProductCD: product code -> the product for each transaction. (categorical feature)
+- (*) [card1, card2, card3, card4, card5, card6] : payment card information For example card type, card category, issue bank, country, etc. (categorical feature)
+- (*) addr1: address. (categorical feature)
+- (*) addr2: address. (categorical feature)
+- dist: distance.
+- (*) P_emaildomain: Purchaser email domain. (categorical feature)
+- (*) R_emaildomain: Recipient email domain. (categorical feature)
+- [C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14]: The actual meaning is masked but can be said as a count such as how many addresses are found to associated with the payment card.
+- [D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15]: timedelta in days between previous transaction.
+- (*) [M1,M2,M3,M4,M5,M6,M7,M8,M9]: match such as names on card and address etc. (categorical feature)
+- Vxxx: Vesta engineered rich features such as ranking, counting and other entity relations.
+
+
+## IDENTITY TABLE
+
+- The field names are masked for privacy protection and contract agreement as part fo Vesta's policies.
+
+- Mostly fields are related to identity information such as network connection information.
+
+### CATEGORICAL FEATURES
+- DeviceType.
+- DeviceInfo.
+- id_12 - id_38.
+
+<p><b>Note:</b> All data description are provided by the competition host (Vesta) at https://www.kaggle.com/c/ieee-fraud-detection/discussion/101203</p>
 
 # IMPLEMENTATION
 
@@ -30,6 +58,12 @@ following models for the given data:
 - The final model is an LGB model with hyper parameter tuning giving the Kaggle Score of 93.
 
 ## EDA
+
+## MACHINE LEARNING MODELS
+
+<table style="width:100%">
+
+</table>
 
 
 # RESULTS
