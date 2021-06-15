@@ -21,3 +21,7 @@
 ### SUMMARY
 
 - Implement a ‘Transaction Fraud Prevention System’ leveraging machine learning models, which aims to predict whether a given financial transaction is ‘Fraudulent’ or ‘Valid’.
+
+#  UPCOMING CHANGES IN REPOSITORY
+
+- Self Reflection of the COMP9417 course as overall and individual self reflection for all the assessments of this course.
