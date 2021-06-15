@@ -8,7 +8,7 @@ which aims to predict whether a given financial transaction is ‘Fraudulent’ 
 
 # REPOSITORY FILE GUIDE
 
-- Name: comp9417-unsw.ipynb:  Type: Jupyter Notebook Description:  Intial Exploratory Data Analysis + Data Preprocessing + Decision Tree model.
+- <b>Name:</b> comp9417-unsw.ipynb:  <b>Type:</b> Jupyter Notebook <b>Description:</b>  Intial Exploratory Data Analysis + Data Preprocessing + Decision Tree model.
 - Name: corr_pairs_sorted.csv   Type: CSV   Description:  correlation matrix of Transactional dataset features used in selecting the optimal number of features for the dataset for learning and processing optimization. (Sorted)
 - Name: corr_pairs.csv    Type: CSV   Description:     correlation matrix of Transactional dataset features used in selecting the optimal number of features for the dataset for learning and processing optimization.
 - Name: EDA.ipynb   Type: Jupyter Notebook    Description:  All the exploratory data anaylsis of both the transactional and identity train and test dataset.
