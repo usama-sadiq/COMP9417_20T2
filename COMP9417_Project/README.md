@@ -65,7 +65,8 @@ following models for the given data:
 
 ###  SOLVING CLASS VARIABLE IMABALANCE USING SIMULATED MINORITY OVER-SAMPLING:
 
-![Alt text](COMP9417_Project\Class_Variable_Imbalance.png?raw=true "Test")
+![Alt text](COMP9417_Project/Class_variable_imbalance.png, "Test")
+
 
 ## MACHINE LEARNING MODELS
 
