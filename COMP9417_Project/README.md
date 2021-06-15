@@ -79,6 +79,22 @@ following models for the given data:
 
 ![Alt text](./Class_variable_imbalance_result.png "Class Variable Imbalance")
 
+<p>Since the dataset has over 400 features so we used correlation matrix, graphs created in the exploratory data analysis and result in the end was the most relevant features of the dataset. We also as a part of this process, we used sklearn's RFECV for a recursive feature elimation to get the optimal features of this dataset.</p>
+
+<table style = "width:100%">
+
+<tr>
+  <th>Feature Selection</th>
+  <th>Parameters</th>
+</tr>
+
+<tr>
+  <td>RFECV</td>
+  <td>BernoulliNB(), step = 15,  scoring = 'roc_auc', ev = 5, verbose = 1, n_jobs = 3</td>
+</tr>
+
+</table>
+
 
 ## MACHINE LEARNING MODELS
 
