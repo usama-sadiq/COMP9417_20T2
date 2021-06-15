@@ -9,11 +9,11 @@ which aims to predict whether a given financial transaction is ‘Fraudulent’ 
 # REPOSITORY FILE GUIDE
 
 - <b>Name:</b> comp9417-unsw.ipynb:  <b>Type:</b> Jupyter Notebook <b>Description:</b>  Intial Exploratory Data Analysis + Data Preprocessing + Decision Tree model.
-- Name: corr_pairs_sorted.csv   Type: CSV   Description:  correlation matrix of Transactional dataset features used in selecting the optimal number of features for the dataset for learning and processing optimization. (Sorted)
-- Name: corr_pairs.csv    Type: CSV   Description:     correlation matrix of Transactional dataset features used in selecting the optimal number of features for the dataset for learning and processing optimization.
-- Name: EDA.ipynb   Type: Jupyter Notebook    Description:  All the exploratory data anaylsis of both the transactional and identity train and test dataset.
-- Name: mohitkhanna-comp9417 .ipynb Type: Jupyter Notebook Description: Data Preprocessing + Exploratory Data Analysis + Light Gradient Boost Machine (LGBM) model + Random Tree Model + Decision Tree Model + Bernouli Naive Bias Model + extreme gradient Boosting Model (XGB).
-- Name: submission.csv  Type: CSV    Description: One of the submission file generated to submit to kaggle competition.
+- <b>Name:</b> corr_pairs_sorted.csv   <b>Type:</b> CSV   <b>Description:</b>  correlation matrix of Transactional dataset features used in selecting the optimal number of features for the dataset for learning and processing optimization. (Sorted)
+- <b>Name:</b> corr_pairs.csv    <b>Type:</b> CSV   <b>Description:</b>     correlation matrix of Transactional dataset features used in selecting the optimal number of features for the dataset for learning and processing optimization.
+- <b>Name:</b> EDA.ipynb   <b>Type:</b> Jupyter Notebook    <b>Description:</b>  All the exploratory data anaylsis of both the transactional and identity train and test dataset.
+- <b>Name:</b> mohitkhanna-comp9417.ipynb <b>Type:</b> Jupyter Notebook <b>Description:</b> Data Preprocessing + Exploratory Data Analysis + Light Gradient Boost Machine (LGBM) model + Random Tree Model + Decision Tree Model + Bernouli Naive Bias Model + extreme gradient Boosting Model (XGB).
+- <b>Name:</b> submission.csv  <b>Type:</b> CSV    <b>Description:</b> One of the submission file generated to submit to kaggle competition.
 
 
 
