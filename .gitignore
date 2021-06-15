@@ -44,13 +44,6 @@ primary-tumor.arff
 COMP9417_HW2/Lab6_NeuralLearning_Qs.ipynb
 COMP9417_Project/.ipynb_checkpoints/*
 COMP9417_Project/sip/*
-COMP9417_Project/corr_pairs.csv
-COMP9417_Project/corr_pairs_sorted.csv
-COMP9417_Project/EDA.ipynb
-COMP9417_Project/main.py
-COMP9417_Project/mohitkhanna-comp9417.ipynb
-COMP9417_Project/SMOTE.ipynb
-COMP9417_Project/submission.csv
-COMP9417_Project/untitled0.py
-COMP9417_Project/comp9417-unsw.ipynb
 COMP9417_Project/ieee-fraud-detection/*
+COMP9417_Project/SMOTE.ipynb
+COMP9417_Project/untitled0.py

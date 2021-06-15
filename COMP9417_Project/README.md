@@ -6,6 +6,17 @@
 - Implement a ‘Transaction Fraud Prevention System’ leveraging machine learning models,
 which aims to predict whether a given financial transaction is ‘Fraudulent’ or ‘Valid’.
 
+# REPOSITORY FILE GUIDE
+
+- Name: comp9417-unsw.ipynb:  Type: Jupyter Notebook Description:  Intial Exploratory Data Analysis + Data Preprocessing + Decision Tree model.
+- Name: corr_pairs_sorted.csv   Type: CSV   Description:  correlation matrix of Transactional dataset features used in selecting the optimal number of features for the dataset for learning and processing optimization. (Sorted)
+- Name: corr_pairs.csv    Type: CSV   Description:     correlation matrix of Transactional dataset features used in selecting the optimal number of features for the dataset for learning and processing optimization.
+- Name: EDA.ipynb   Type: Jupyter Notebook    Description:  All the exploratory data anaylsis of both the transactional and identity train and test dataset.
+- Name: mohitkhanna-comp9417 .ipynb Type: Jupyter Notebook Description: Data Preprocessing + Exploratory Data Analysis + Light Gradient Boost Machine (LGBM) model + Random Tree Model + Decision Tree Model + Bernouli Naive Bias Model + extreme gradient Boosting Model (XGB).
+- Name: submission.csv  Type: CSV    Description: One of the submission file generated to submit to kaggle competition.
+
+
+
 # DATASET
 
 - The dataset for the model was taken from the Kaggle competition: https://www.kaggle.com/c/ieee-fraud-detection and
@@ -126,11 +137,11 @@ following models for the given data:
   <td>0.72</td>
 </tr>
 
-<tr>
+<!-- <tr>
   <td>One hot encoding, Features\Columns with 90 percent or more null values removed, Imbalance of the class variable</td>
   <td>random_state = 0, criterion = 'entropy', max_depth = 8, splitter = 'best', min_samples_split = 30</td>
   <td>FILL THIS PLEASE</td>
-</tr>
+</tr> -->
 
 </table>
 
@@ -327,8 +338,8 @@ following models for the given data:
 </tr>
 
 <tr>
-  <td>'objective' = 'binary', 'n_estimators' = 700, 'learning_rate' = 0.1, 'num_leaves' = 50, 'max_depth' = 7, 'subsample' = 0.9, 'colsample_bytree' = 0.9, 'random_state' = 108</td>
-  <td>0.92</td>
+  <td><b>'objective' = 'binary', 'n_estimators' = 700, 'learning_rate' = 0.1, 'num_leaves' = 50, 'max_depth' = 7, 'subsample' = 0.9, 'colsample_bytree' = 0.9, 'random_state' = 108</b></td>
+  <td><b>0.92</b></td>
 </tr>
 
 </table>
