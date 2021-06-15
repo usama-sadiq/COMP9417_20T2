@@ -67,6 +67,18 @@ following models for the given data:
 
 ![Alt text](./Class_variable_imbalance.png "Class Variable Imbalance")
 
+<p>Above image shows the original distribution between the fraud and valid transactions</p>
+
+<p>Approaches considered to solve the class imbalance are minority over sampling and majority over sampling.</p>
+
+<p>Majority under sampling appraoch wass rejected since there could be a possiblity of losing important information.</p>
+
+<p>We used Synthentic Minority Ovver Sampling (SMOTE) and the details are mentioned in the report and the notebook.</p>
+
+####  RESULT AFTER SMOTE
+
+![Alt text](./Class_variable_imbalance_result.png "Class Variable Imbalance")
+
 
 ## MACHINE LEARNING MODELS
 
