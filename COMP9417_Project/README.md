@@ -8,6 +8,7 @@ which aims to predict whether a given financial transaction is ‘Fraudulent’ 
 
 # REPOSITORY FILE GUIDE
 
+- <b>Name:</b> comp9417_final.py:   <b>Type:</b> Python Script  <b>Description:</b>   Final script submitted for assessment.
 - <b>Name:</b> comp9417-unsw.ipynb:  <b>Type:</b> Jupyter Notebook <b>Description:</b>  Intial Exploratory Data Analysis + Data Preprocessing + Decision Tree model.
 - <b>Name:</b> corr_pairs_sorted.csv   <b>Type:</b> CSV   <b>Description:</b>  correlation matrix of Transactional dataset features used in selecting the optimal number of features for the dataset for learning and processing optimization. (Sorted)
 - <b>Name:</b> corr_pairs.csv    <b>Type:</b> CSV   <b>Description:</b>     correlation matrix of Transactional dataset features used in selecting the optimal number of features for the dataset for learning and processing optimization.
